@@ -1,0 +1,49 @@
+.viewed {
+    height: 747px;
+    overflow: hidden;
+    background-color: #FAFAFA;
+}
+
+.viewed .title {
+    padding-top: 106px;
+    padding-bottom: 88px;
+    text-transform: none;
+    width: 661px;
+    margin: 0 auto;
+    font-size:30px;
+    text-align:center;
+}
+
+.viewed .subtitle-viewed {
+    font-size: 25px;
+    line-height: 32px;
+    color: #757070;
+    padding-left: 69px;
+}
+.viewed .recipesslider__recipeblock {
+    margin-bottom:0;
+}
+
+
+.slick-slider,
+.slick-track {
+    min-width:1286px;
+    padding-left: 80px;
+}
+
+.slick-slide {
+    margin-right:20px;
+    width:287px;
+}
+.slick-prev:before {
+    content:url("./arrow-left.svg");
+    position:relative;
+    left:102px;
+    top:230px;
+}
+.slick-next:before {
+    content: url("./arrow-right.svg");
+    position:relative;
+    top:230px;
+} 
+.slick-next:before{right: 46px;}

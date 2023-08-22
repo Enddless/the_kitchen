@@ -1,0 +1,84 @@
+  .wrapLoader {
+     display: flex;
+     flex-direction: row;
+     width: 300px;
+     justify-content: space-between;
+     width: 80px;
+     height: 80px;
+     position: relative;
+     margin: 0 auto;
+     align-items: center;
+     justify-content: center;
+     border-radius: 100%;
+     animation: spinner-rotate 1s linear infinite;
+     -webkit-animation: spinner-rotate 1s linear infinite;
+ }
+
+ .spinner {
+     height: 20px;
+     width: 20px;
+     border-radius: 50%;
+     margin: 3px;
+     position: absolute;
+     display: inline-block;
+     top: 0;
+     background: #9E95E6;
+     animation: preloader-bounce 1s linear infinite;
+     -webkit-animation: preloader-bounce 1s linear infinite;
+ }
+
+ .one {
+     top: 0;
+     left: 13px;
+ }
+
+ .two {
+     top: 27px;
+     left: -4px;
+     animation-delay: 250ms;
+ }
+
+ .three {
+     top: 53px;
+     left: 13px;
+     animation-delay: 500ms;
+ }
+
+ .four {
+     top: 53px;
+     left: 41px;
+     animation-delay: 750ms;
+ }
+
+ .five {
+     top: 27px;
+     left: 57px;
+     animation-delay: 1000ms;
+ }
+
+ .six {
+     top: 0;
+     left: 41px;
+     animation-delay: 1250ms;
+ }
+
+ @keyframes spinner-rotate {
+     from {
+         transform: rotate(0deg);
+     }
+
+     to {
+         transform: rotate(360deg);
+     }
+ }
+
+ @keyframes preloader-bounce {
+     0% {
+         opacity: 1;
+     }
+
+     100% {
+         opacity: 0;
+
+     }
+ }

@@ -1,0 +1,110 @@
+[
+    {
+        "type": "ct00000",
+        "name": "category",
+        "id": "ca00000",
+        "image": ""
+    },
+    {
+        "id": "ca00001",
+        "name": "До 30 минут",
+        "image": "https://firebasestorage.googleapis.com/v0/b/receptura-f8c2f.appspot.com/o/category%2Fca00001.png?alt=media&token=ceb9500b-aa07-43bb-a001-1f112e9e7ffe",
+        "type": "ct00001"
+    },
+    {
+        "image": "https://firebasestorage.googleapis.com/v0/b/receptura-f8c2f.appspot.com/o/category%2Fca00002.png?alt=media&token=7bd3a91b-dfc3-4b00-a6e9-9860a4bedf6f",
+        "id": "ca00002",
+        "type": "ct00001",
+        "name": "До 40 минут"
+    },
+    {
+        "image": "https://firebasestorage.googleapis.com/v0/b/receptura-f8c2f.appspot.com/o/category%2Fca00003.png?alt=media&token=b03b2986-2538-4279-a8fa-336e52a1db35",
+        "type": "ct00001",
+        "name": "До 60 минут",
+        "id": "ca00003"
+    },
+    {
+        "type": "ct00002",
+        "image": "https://firebasestorage.googleapis.com/v0/b/receptura-f8c2f.appspot.com/o/category%2Fca00004.png?alt=media&token=868c7c8a-6009-4232-a1bb-6c658fd1542c",
+        "id": "ca00004",
+        "name": "Супы"
+    },
+    {
+        "type": "ct00002",
+        "id": "ca00005",
+        "image": "https://firebasestorage.googleapis.com/v0/b/receptura-f8c2f.appspot.com/o/category%2Fca00005.png?alt=media&token=e4ef59ab-fe5c-4857-8e62-d12e500d5080",
+        "name": "Салаты"
+    },
+    {
+        "type": "ct00002",
+        "id": "ca00006",
+        "image": "https://firebasestorage.googleapis.com/v0/b/receptura-f8c2f.appspot.com/o/category%2Fca00006.png?alt=media&token=e083578c-3242-4d4d-bf51-18aff9ca8424",
+        "name": "Десерты"
+    },
+    {
+        "name": "Горячее",
+        "type": "ct00002",
+        "id": "ca00007",
+        "image": "https://firebasestorage.googleapis.com/v0/b/receptura-f8c2f.appspot.com/o/category%2Fca00007.png?alt=media&token=ed6eee67-c8f0-4b3d-a2a2-40daa1e6d931"
+    },
+    {
+        "name": "Завтраки",
+        "image": "https://firebasestorage.googleapis.com/v0/b/receptura-f8c2f.appspot.com/o/category%2Fca00008.png?alt=media&token=f9ad66dc-a709-4968-8d40-480093bd0f48",
+        "type": "ct00002",
+        "id": "ca00008"
+    },
+    {
+        "type": "ct00002",
+        "name": "Выпечка",
+        "id": "ca00009",
+        "image": "https://firebasestorage.googleapis.com/v0/b/receptura-f8c2f.appspot.com/o/category%2Fca00009.png?alt=media&token=be95d359-c2a7-42cb-93f5-04b0286d964b"
+    },
+    {
+        "name": "Запеканки",
+        "image": "https://firebasestorage.googleapis.com/v0/b/receptura-f8c2f.appspot.com/o/category%2Fca00010.png?alt=media&token=029eeac2-3c29-4566-8994-0f2fd4b140b8",
+        "id": "ca00010",
+        "type": "ct00002"
+    },
+    {
+        "type": "ct00002",
+        "name": "Заготовки",
+        "id": "ca00011",
+        "image": "https://firebasestorage.googleapis.com/v0/b/receptura-f8c2f.appspot.com/o/category%2Fca00011.png?alt=media&token=47da91a7-37de-4069-a03d-a4ce1f6a1175"
+    },
+    {
+        "image": "https://firebasestorage.googleapis.com/v0/b/receptura-f8c2f.appspot.com/o/category%2Fca00011.png?alt=media&token=47da91a7-37de-4069-a03d-a4ce1f6a1175",
+        "type": "ct00003",
+        "id": "ca00012",
+        "name": "Без мяса"
+    },
+    {
+        "type": "ct00003",
+        "id": "ca00013",
+        "image": "https://firebasestorage.googleapis.com/v0/b/receptura-f8c2f.appspot.com/o/category%2Fca00011.png?alt=media&token=47da91a7-37de-4069-a03d-a4ce1f6a1175",
+        "name": "Без сахара"
+    },
+    {
+        "name": "Без лактозы",
+        "id": "ca00014",
+        "type": "ct00003",
+        "image": "https://firebasestorage.googleapis.com/v0/b/receptura-f8c2f.appspot.com/o/category%2Fca00011.png?alt=media&token=47da91a7-37de-4069-a03d-a4ce1f6a1175"
+    },
+    {
+        "name": "Без глютена",
+        "id": "ca00015",
+        "image": "https://firebasestorage.googleapis.com/v0/b/receptura-f8c2f.appspot.com/o/category%2Fca00011.png?alt=media&token=47da91a7-37de-4069-a03d-a4ce1f6a1175",
+        "type": "ct00003"
+    },
+    {
+        "id": "ca00016",
+        "type": "ct00003",
+        "name": "Без лука",
+        "image": "https://firebasestorage.googleapis.com/v0/b/receptura-f8c2f.appspot.com/o/category%2Fca00011.png?alt=media&token=47da91a7-37de-4069-a03d-a4ce1f6a1175"
+    },
+    {
+        "image": "https://firebasestorage.googleapis.com/v0/b/receptura-f8c2f.appspot.com/o/category%2Fca00011.png?alt=media&token=47da91a7-37de-4069-a03d-a4ce1f6a1175",
+        "id": "ca00017",
+        "type": "ct00003",
+        "name": "Без свинины"
+    }
+]

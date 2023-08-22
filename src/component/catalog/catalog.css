@@ -1,0 +1,118 @@
+.catalog__container {
+    padding: 0 80px;
+    display: inline-table;
+    height: auto;
+    background: #FAFAFA;
+}
+
+.catalog__container .title {
+    font-size: 30px;
+    line-height: 64px;
+    text-align: center;
+    padding: 72px 0;
+}
+
+.categories-content {
+    margin-top: 102px;
+    grid-row: 3;
+    grid-column: 1 / span 12;
+}
+
+.flexcontainer-categories {
+    grid-row: 1;
+    justify-items: start;
+}
+
+.flexcontainer-categories .grid {
+    align-items: start;
+}
+
+.categories-content .recipesslider__recipeblock--big {
+    grid-column: span 6;
+}
+
+.container-more {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    grid-row: 2;
+}
+
+.btn-filter {
+    width: 200px;
+    padding: 19px;
+    margin: 30px 5px 50px;
+}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 1087px) {
+    .categories-content .recipesslider__recipeblock--big {
+        grid-column: span 4;
+    }
+}
+
+@media screen and (max-width: 948px) {
+
+    .categories-content .recipesslider__recipeblock,
+    .categories-content .recipesslider__recipeblock--big {
+        grid-column: span 4;
+    }
+}
+
+@media screen and (max-width: 904px) {}
+
+@media screen and (max-width: 768px) {
+    .categories-content .recipeblock__text .subtitle {
+        font-size: 11px;
+        padding: 0 6px;
+        line-height: 11px;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+
+    .catalog__container {
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .categories-content .recipesslider__recipeblock,
+    .categories-content .recipesslider__recipeblock--big {
+        grid-column: span 6;
+    }
+
+    .btn-filter {
+        width: 100%;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .categories-content .recipesslider__recipeblock {
+        margin-bottom: 21px;
+    }
+}
+
+@media screen and (max-width: 450px) {}
+
+@media screen and (max-width: 375px) {
+    .catalog__container {
+        padding: 0 10px;
+    }
+
+    .catalog__container .title {
+        padding: 12px 0;
+        font-size: 20px;
+    }
+
+    .categories-content {
+        margin-top: 40px;
+    }
+
+
+}

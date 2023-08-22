@@ -1,0 +1,185 @@
+.footer-main {
+    background: #CEFE8F;
+    border-radius: 207px 0px 0px 0px;
+    height: 666px;
+    overflow: hidden;
+    -webkit-border-radius: 207px 0px 0px 0px;
+    -moz-border-radius: 207px 0px 0px 0px;
+    -ms-border-radius: 207px 0px 0px 0px;
+    -o-border-radius: 207px 0px 0px 0px;
+    padding: 0 80px;
+    place-items: center;
+    position: relative;
+}
+
+
+.footer-install {
+    grid-column: 1 / span 6;
+}
+
+.footer-iphone {
+    grid-column: 7 / span 6;
+}
+
+.footer-main__title {
+    font-size: 40px;
+    line-height: 51px;
+    padding-top: 187px;
+    padding-left: 51px;
+    padding-bottom: 48px;
+    font-weight: 400;
+}
+
+.footer-main__iphone {
+    position: absolute;
+    left: 79%;
+    transform: translate(-70%, -15%);
+    grid-row: 1;
+    order: 1;
+}
+
+
+.footer-main .logo {
+    color: white;
+}
+
+.footer-main .logo::before {
+    content: url('./logos_google-icon.svg');
+    position: relative;
+    left: -10px;
+    top: 2px;
+}
+
+.footer-main .btn-purple {
+    padding: 13px 45px;
+    margin-left: 51px;
+}
+
+
+@media screen and (max-width: 948px) {
+
+    .footer-install {
+        grid-column: 1 / span 7;
+    }
+
+    .footer-main__title {
+        padding-left: 0;
+    }
+
+    .footer-main .btn-purple {
+        margin-left: 0;
+    }
+
+    .footer-iphone {
+        grid-column: 8 / span 4;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-main {
+        height: 493px;
+    }
+
+    .footer-main__iphone {
+        width: 95%;
+    }
+
+    .footer-main__title {
+        font-size: 30px;
+        line-height: 41px;
+        padding-top: 95px;
+        padding-bottom: 38px;
+    }
+}
+
+
+
+@media screen and (max-width: 620px) {
+    .footer-main {
+        height: 436px;
+        padding: 0 40px;
+    }
+
+    .footer-main__title {
+        font-size: 28px;
+        line-height: 31px;
+        padding-top: 106px;
+    }
+}
+
+@media screen and (max-width: 517px) {
+    .footer-main .btn-purple {
+        font-size: 12px;
+        padding: 6px 29px;
+    }
+
+    .footer-main__title {
+        font-size: 20px;
+        line-height: 21px;
+        padding-top: 106px;
+    }
+
+    .footer-main {
+        height: 321px;
+        border-radius: 85px 0px 0px 0px;
+        -webkit-border-radius: 85px 0px 0px 0px;
+        -moz-border-radius: 85px 0px 0px 0px;
+        -ms-border-radius: 85px 0px 0px 0px;
+        -o-border-radius: 85px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 416px) {
+    .footer-main .btn-purple {
+        font-size: 10px;
+        padding: 6px 21px;
+    }
+
+    .footer-main__title {
+        font-size: 16px;
+        line-height: 21px;
+        padding-top: 64px;
+    }
+
+    .footer-main {
+        height: 270px;
+    }
+
+
+}
+
+@media screen and (max-width: 375px) {
+    .footer-main {
+        padding: 0 10px;
+        border-radius: 0px 107px 0px 0px;
+        -webkit-border-radius: 0px 107px 0px 0px;
+        -moz-border-radius: 0px 107px 0px 0px;
+        -ms-border-radius: 0px 107px 0px 0px;
+        -o-border-radius: 0px 107px 0px 0px;
+    }
+
+    .footer-install {
+        grid-column: 1 / span 5;
+    }
+
+    .footer-main__title {
+        font-size: 10px;
+        line-height: 21px;
+        padding-top: 93px;
+        padding-bottom: 7px;
+    }
+
+    .footer-iphone {
+        grid-column: 6 / span 7;
+    }
+
+    .footer-main__iphone {
+        left: 69%;
+    }
+
+    .footer-main .btn-purple {
+        padding: 0px 16px;
+    }
+
+
+}

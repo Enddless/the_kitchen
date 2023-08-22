@@ -1,13 +1,117 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* @import './base.css'; */
+
+@font-face {
+  font-family: OnestRegular;  
+  src: url(../fonts/OnestRegular1602-hint.ttf); 
+}
+@font-face {
+  font-family: Seul; 
+  src: url(../fonts/SeoulHangang-CBL.ttf.eot); 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin:0;
+  padding:0;
+}
+html {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+a:visited,
+a:link {
+  color: #4F4F4F;
+}
+body {
+  font-family: OnestRegular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  /* width: 1366px; */
+  margin: 0 auto;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  /* padding: 0 80px;  */
+}
+.btn {
+  padding: 16px 36px;
+  background: #9E95E6;
+  border-radius: 30px;
+  font-size:17px;
+  font-weight: 500;
+  line-height: 23px;
+  border:none;
+  color: #FFFFFF;
+  cursor:pointer;
+}
+.btn-autorization {
+  padding: 19px 38px;
+  border-radius: 100px;
+  font-size: 16px;
+  line-height: 16px; 
+}
+.btn-purple {
+  background: #6E479F;
+  border-radius: 30px;
+  padding: 20px 50px;
+  margin-left:132px;
+  display:flex;
+  justify-content: space-between;
+}
+.title {
+  font-size: 50px;
+  line-height: 108.5%;
+  text-transform: uppercase;
+  padding-bottom:80px;
+}
+.subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  color: #363636;
+  margin-bottom:34px;
+}
+.like {
+  width: 24px;
+  height: 24px;
+  margin: 25px;
+  margin-left: 0;
+  cursor: pointer;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+  border-radius: 10px 10px 10px 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(158, 149, 230);
+  border-radius: 10px 10px 10px 10px;
+}
+@media screen and (min-width: 1367px) {
+  body {
+      width:1366px;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    width:374px;
+  }
 }

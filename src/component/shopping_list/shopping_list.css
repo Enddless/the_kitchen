@@ -1,0 +1,439 @@
+.shopping-list-container {
+    background: #F2F5F9;
+    padding: 85px 80px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    min-height: 90vh;
+
+}
+
+.content {
+    margin-top: 40px;
+    grid-column: 3 / span 8;
+}
+
+.shopping-list-container .content .grid {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: none;
+}
+
+.add {
+    grid-column: span 2;
+}
+
+.shopping-list-container .title,
+.shopping-list-container .subtitle {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.shopping-list-container .subtitle {
+    text-align: center;
+    font-size: 30px;
+}
+
+.shopping-list-container .shop-registration {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.info {
+    min-height: 600px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 32px 28px;
+    box-sizing: border-box;
+
+}
+
+.info .subtitle,
+.info .text {
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    color: #6E479F;
+    font-weight: 700;
+}
+
+.info .text {
+    display: block;
+    letter-spacing: 0.15px;
+    color: #757070;
+    font-weight: 100;
+    padding-top: 29px;
+    padding-bottom: 23px;
+}
+
+.info .checklist {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.option {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-bottom: 23px;
+}
+
+.selectinput {
+    display: flex;
+    flex-direction: row;
+}
+
+.product-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    user-select: none;
+    border-bottom: 1px solid #F2F5F9;
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 16px 0;
+}
+
+
+.list-text {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #363636;
+    margin-right: 15px;
+}
+
+.pen-container {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.pen-container:hover path {
+    stroke: #a409ec;
+}
+
+.btn-delete {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #6E479F;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.fullcontent-container .container-for-add {
+    background: transparent;
+}
+
+.container-loader {
+    position: relative;
+    background: transparent;
+}
+
+.fullcontent-container .content-dark {
+    opacity: 0;
+    position: absolute;
+}
+
+
+.add-shop-btn {
+    width: 63px;
+    height: 63px;
+    background: #CEFE8F;
+    box-shadow: 0px 4.71px 7.85px rgba(0, 0, 0, 0.2);
+    border: none;
+    cursor: pointer;
+    border-radius: 157px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.add-shop-btn img {
+    width: 30px;
+}
+
+.add-shop-form {
+    height: 556px;
+    filter: drop-shadow(0px 4px 40px rgba(67, 67, 67, 0.12));
+    border-radius: 0px 100px;
+    background: #FFFFFF;
+    -webkit-filter: drop-shadow(0px 4px 40px rgba(67, 67, 67, 0.12));
+    padding: 146px 300px 0 120px;
+    box-sizing: border-box;
+}
+
+.add-shop-form .close {
+    position: absolute;
+    right: 44px;
+}
+
+.add-shop-form .title-add {
+    padding-bottom: 43px;
+    text-transform: none;
+    margin: 0;
+    font-size: 30px;
+}
+
+.add-shop-form .fieldset {
+    margin: 0 0 17px 0;
+}
+
+.add-shop-form .fieldset input {
+    padding-left: 6px;
+}
+
+.count-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.count-block input {
+    width: 162px;
+}
+
+.count-block select {
+    width: 162px;
+    height: 55px;
+    border-radius: 30px;
+    border: 1px solid purple;
+    padding-left: 16px;
+    box-sizing: border-box;
+    background: transparent;
+}
+
+.basket {
+    position: absolute;
+    bottom: 0;
+    left: -15px;
+}
+
+.add-shop-form .btn-enabled,
+.add-shop-form .btn-disabled,
+.add-shop-form .btn-visible {
+    margin: 34px 0 0 0;
+}
+
+.add-shop-form .food {
+    position: absolute;
+    right: 0;
+    top: 179px;
+}
+
+.add-shop-form .fieldset .found-block {
+    width: 162px;
+    padding: 0;
+    position: absolute;
+    top: 370px;
+    left: 289px;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 150px;
+    background: rgba(255, 255, 255, .9);
+    border: 1px solid purple;
+    border-radius: 5px 5px 5px 5px;
+
+}
+
+.add-shop-form .fieldset .found-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-shop-form .fieldset {
+    width: 0;
+}
+
+.add-shop-form .fieldset .subtitle {
+    width: 162px;
+
+    text-align: center;
+    font-size: 12px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.add-shop-form .fieldset .subtitle:hover {
+    background: rgba(158, 149, 230, .5);
+    color: white;
+}
+
+.fieldset .found-block::-webkit-scrollbar {
+    width: 10px;
+    height: 100px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.fieldset .found-block::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.fieldset .found-block::-webkit-scrollbar-thumb {
+    background-color: rgba(158, 149, 230, .5);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.fieldset .list-vector {
+    position: relative;
+}
+
+.fieldset .list-vector-active::before,
+.fieldset .list-vector-noactive::before {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    top: -38px;
+    right: 13px;
+    content: "\2039";
+    transform: rotate(-90deg);
+}
+
+.fieldset .list-vector-noactive::before {
+    transform: rotate(90deg);
+    left: 140px;
+}
+
+.fieldset .cursor {
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width: 1200px) {
+    .food {
+        display: none;
+    }
+
+    .add-shop-form {
+        padding: 146px 100px 0;
+    }
+
+    .add-shop-form .fieldset,
+    .add-shop-form .btn-visible {
+        width: 100%;
+    }
+
+    .add-shop-form .fieldset input {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1087px) {
+    .shopping-list-container .title {
+        font-size: 30px;
+    }
+
+    .basket {
+        opacity: 0.1;
+    }
+
+}
+
+@media screen and (max-width: 948px) {
+
+    .shopping-list-container .title,
+    .shopping-list-container .subtitle {
+        padding-bottom: 25px;
+    }
+
+    .add-shop-form {
+        padding: 146px 70px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        grid-column: 2 / span 9;
+    }
+
+    .add-shop-form {
+        padding: 146px 40px 0;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+
+    .shopping-list-container {
+        padding: 20px 40px;
+    }
+
+    .content {
+        margin-top: 0;
+    }
+
+    .info {
+        min-height: 500px;
+    }
+
+    .info .subtitle,
+    .info .text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .add-shop-form {
+        padding: 146px 10px 0;
+    }
+
+    .option {
+        display: block;
+        padding: 0 10px;
+    }
+
+    .list-text,
+    .btn-delete {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .shopping-list-container .title {
+        font-size: 20px;
+    }
+
+    .info .subtitle,
+    .info .text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .shopping-list-container {
+        padding: 10px;
+    }
+
+    .shopping-list-container .title {
+        font-size: 20px;
+    }
+
+    .content {
+        grid-column: 1 / span 10;
+    }
+
+
+}

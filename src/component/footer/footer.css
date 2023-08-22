@@ -1,0 +1,39 @@
+.footer {
+    height: 75px;
+    background: #2A3E16;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 300;
+    color: #FFFFFF;
+    align-self: end;
+
+}
+
+.footer__navigation .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.footer__navigation .navigation__item {
+    margin: 0 24px;
+    color: #fff;
+}
+
+.footer .select--none {
+    user-select: none;
+}
+
+@media screen and (max-width: 375px) {
+
+
+    .footer__navigation,
+    .footer__linkFoMobile {
+        display: none;
+    }
+}

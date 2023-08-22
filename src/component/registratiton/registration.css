@@ -1,0 +1,264 @@
+.reg {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background: rgb(230, 229, 229);
+}
+
+
+.reg .title {
+    padding-top: 152px;
+    text-align: center;
+    padding-bottom: 46px;
+    text-transform: none;
+    text-align: center;
+    font-size: 30px;
+    line-height: 38px;
+    color: #363636;
+}
+
+.reg .title-end {
+    padding-top: 110px;
+}
+
+.registrationForm {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    grid-column: 3 / span 8;
+    height: 556px;
+    margin: 30px auto 0;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 100px;
+}
+
+.close {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 47px;
+    top: 10%;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.divider {
+    border: 1px solid #363636;
+    height: 15px;
+    position: absolute;
+    left: 15px;
+}
+
+.divider_left {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+
+.divider_right {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    top: 0px;
+}
+
+.registrationForm .google {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.registrationForm .google::before {
+    content: url("../footer_main/logos_google-icon.svg");
+    position: relative;
+    left: -7px;
+    top: 1px;
+}
+
+.registrationForm .google img {
+    margin-right: 5px;
+}
+
+.registrationForm .btn-autorization {
+    width: 328px;
+    padding: 12px 61px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    border-radius: 30px;
+    display: block;
+}
+
+.registrationForm .btn-registration {
+    border: 1px solid #363636;
+    background: #fff;
+    color: #363636;
+    margin-bottom: 32px;
+}
+
+.agree {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #757070;
+    width: 45%;
+    margin: 0 auto;
+}
+
+/* вторая форма */
+.fieldset {
+
+    text-align: center;
+    height: 55px;
+    background: transparent;
+    border: none;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+
+.fieldset input {
+    width: 68%;
+    height: 55px;
+    border-radius: 30px;
+    border: 1px solid purple;
+    padding-left: 16px;
+    box-sizing: border-box;
+    background: transparent;
+}
+
+.fieldset input:focus {
+    outline: rgba(128, 0, 128, 0.5);
+    background: rgb(248, 245, 248);
+}
+
+.legend {
+    position: relative;
+    top: 10px;
+    background: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: rgba(0, 0, 0, 0.91);
+    padding-left: 11px;
+}
+
+.btn-disabled {
+    background: #757070;
+    cursor: not-allowed;
+}
+
+.btn-enabled {
+    background: #9E95E6;
+    ;
+}
+
+.btn-visible {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 81px;
+    margin: 44px auto 25px;
+    box-sizing: border-box;
+    width: 68%;
+    height: 48px;
+}
+
+.registrationForm .profile {
+    position: absolute;
+    top: 405px;
+    left: -26px;
+}
+
+.previos {
+    position: absolute;
+    right: 49px;
+    bottom: 24px;
+    cursor: pointer;
+    z-index: 5;
+    font-size: 14px;
+    line-height: 17px;
+    color: #757070;
+}
+
+
+/* анимация перехода */
+.form-container {
+    position: relative;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+}
+
+.show-second-form form:first-child {
+    opacity: 0;
+}
+
+.show-second-form form:last-child {
+    opacity: 1;
+}
+
+
+form:first-child {
+    z-index: 2;
+}
+
+form:last-child {
+    z-index: 1;
+}
+
+
+@media screen and (max-width: 768px) {
+    .registrationForm {
+        grid-column: 2 / span 10;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .profile-wrapper {
+        padding: 14px 20px;
+    }
+
+    .agree {
+        width: 85%;
+    }
+
+    .registrationForm .profile {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .registrationForm .btn-autorization {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 526px) {
+    .btn-visible {
+        padding: 12px 35px;
+    }
+
+    .reg .title {
+        font-size: 24px;
+    }
+}
+
+
+
+@media screen and (max-width: 450px) {}
+
+@media screen and (max-width: 375px) {
+    .profile-wrapper {
+        padding: 14px 10px;
+    }
+
+}
