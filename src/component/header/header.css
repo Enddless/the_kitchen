@@ -3,13 +3,14 @@
     padding: 0 80px;
     background: #FFFFFF;
     position: relative;
+    justify-items: end;
 }
 
 
 .header__logo {
     display: flex;
     align-items: center;
-    grid-column: 1 / span 2;
+    grid-column: span 2;
 }
 
 .logo {

@@ -334,7 +334,7 @@ const RecipeDetails = (props) => {
           </div>
         </div>
       </div>
-      <Comment item={categorykey} />
+      {/* <Comment item={categorykey} /> */}
       <Viewed {...props} />
     </>
   );

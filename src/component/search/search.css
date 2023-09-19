@@ -2,9 +2,10 @@
     position: relative;
     margin-bottom: 112px;
     grid-row: 1;
-    grid-column: 2/ span 10;
+    grid-column: span 12;
     margin-bottom: 9%;
-    width: 100%;
+    width: 95%;
+    box-sizing: border-box;
 }
 
 .search-string {
@@ -39,7 +40,7 @@
     box-sizing: border-box;
     font-size: 16px;
     line-height: 25px;
-    padding: 20px 24px;
+    padding: 20px 37px;
 
     position: absolute;
     right: 3px;

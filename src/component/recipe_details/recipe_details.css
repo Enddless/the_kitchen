@@ -74,6 +74,7 @@
     align-items: center;
     grid-row: 5;
     grid-column: span 12;
+    width: 100%;
 }
 
 .info__block__item {
